@@ -1,0 +1,18 @@
+.menu-list {
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.menu-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1rem;
+}
+
+@media(max-width: 500px) {
+    .menu-list {
+        display: flex;
+        flex-direction: column;
+    }
+}

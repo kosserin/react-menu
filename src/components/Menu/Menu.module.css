@@ -1,0 +1,7 @@
+h1 {
+    text-align: center;
+    border-bottom: 3px solid #000;
+    margin: 2rem auto;
+    width: fit-content;
+    font-weight: 600;
+}
